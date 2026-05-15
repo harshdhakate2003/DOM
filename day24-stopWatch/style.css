@@ -1,0 +1,32 @@
+#container{
+    /* border: 2px solid red; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 550px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(232, 232, 232);
+}
+
+.align{
+    /* border: 2px solid black; */
+    width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+}
