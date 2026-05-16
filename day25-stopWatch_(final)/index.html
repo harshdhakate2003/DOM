@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="timer">
+        <h1 id="hr"></h1>
+        <h1>:</h1>
+        <h1 id="min"></h1>
+        <h1>:</h1>
+        <h1 id="sec"></h1>
+    </div>
+
+    <div id="btnDiv">        
+        <button onclick="subOne()">-1 min</button>
+        <button onclick="subTen()">-10 min</button>
+        <button onclick="subOneHour()">-1 hr</button>
+        <button id="startbtn" onclick="start()">start</button>
+        <button id="stopbtn" onclick="stop()">stop</button>
+        <button onclick="getLap()">lap</button>
+        <button onclick="addOne()" >+1 min</button>
+        <button onclick="addTen()">+10 min</button>
+        <button onclick="addOneHour()">+1 hr</button>
+    </div>
+
+    <div id="data">
+        <ul id="list">
+
+        </ul>
+    </div>
+
+    <div id="audio">
+
+    </div>
+    
+    <div id="click">
+
+    </div>
+
+    
+</body>
+<script src="./script.js"></script>
+</html>
