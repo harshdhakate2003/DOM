@@ -1,0 +1,32 @@
+{
+  "user": [
+    {
+      "name": "Harsh",
+      "age": 23,
+      "id": "fp_uGGIRnC8"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Moblie"
+    },
+    {
+      "name": "Mobile",
+      "img": "https://m.media-amazon.com/images/I/61920B-xsvL._AC_UY327_FMwebp_QL65_.jpg",
+      "category": "Electronics",
+      "price": "152",
+      "description": "This is mobile",
+      "id": "g9bBYL_dfqU"
+    },
+    {
+      "name": "oihio",
+      "img": "https://m.media-amazon.com/images/I/61920B-xsvL._AC_UY327_FMwebp_QL65_.jpg",
+      "category": "Womens",
+      "price": "7878",
+      "description": "kjhiilub",
+      "id": "TdJxutiqbXs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
