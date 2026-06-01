@@ -1,0 +1,33 @@
+{
+  "user": [
+    {
+      "name": "Tiya",
+      "id": "1"
+    },
+    {
+      "name": "Mahi",
+      "age": "21",
+      "city": "kashmir",
+      "id": "2"
+    },
+    {
+      "name": "Dipali",
+      "age": "20",
+      "city": "jail",
+      "id": "Pu5KCCPfI6M"
+    },
+    {
+      "name": "Divya",
+      "age": "24",
+      "city": "paris",
+      "id": "Rz6Z1bGyNpY"
+    },
+    {
+      "name": "Anam",
+      "age": "22",
+      "city": "kalmeshwar",
+      "id": "KR1J_S6o4hM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
