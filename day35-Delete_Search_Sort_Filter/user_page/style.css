@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(122, 152, 152);
+    text-align: center;
+}
+
+#mainDiv{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-content: center;
+    gap: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.userDiv{
+    height:auto;
+    width: 300px;
+    /* border: 2px solid black; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(223, 223, 223);
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+.userDiv> input,select {
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    row-gap: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+.nBtn{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+}
+
+.card{
+    height:200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    background-color: rgb(223, 223, 223);
+}

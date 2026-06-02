@@ -1,0 +1,53 @@
+{
+  "user": [
+    {
+      "name": "Mahi",
+      "age": 21,
+      "city": "London",
+      "id": "n3Dd_jbwh9U"
+    },
+    {
+      "name": "Divya",
+      "age": 24,
+      "city": "Turkey",
+      "id": "O7hoi3c6ZPk"
+    },
+    {
+      "name": "Harsh",
+      "age": 23,
+      "city": "Nagpur",
+      "id": "6RAtL_RmDgU"
+    },
+    {
+      "name": "Tiya",
+      "age": 21,
+      "city": "Paris",
+      "id": "z8lz4Y8fLf8"
+    },
+    {
+      "name": "Alpesh",
+      "age": 24,
+      "city": "Mumbai",
+      "id": "MPO6iZouzpI"
+    },
+    {
+      "name": "Dipali",
+      "age": "20",
+      "city": "Kalmeshwar",
+      "id": "o19NWpDjW1Y"
+    },
+    {
+      "name": "Swati",
+      "age": 26,
+      "city": "Pune",
+      "id": "VP4mjJS7VJ4"
+    },
+    {
+      "name": "Ayush",
+      "age": 19,
+      "city": "Tokyo",
+      "id": "6SAIZj1bETg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

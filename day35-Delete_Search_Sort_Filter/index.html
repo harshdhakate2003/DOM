@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="" id="userForm">
+        <h2 class="fTitle">AddUser-Form</h2>
+        <input type="text" name="name" id="" placeholder="Enter the name">
+        <input type="number" name="age" id="" placeholder="Enter the age">
+        <input type="text" name="city" id="" placeholder="Enter the city">
+        <input class="fbtn" type="submit" name="" id="">
+    </form>
+
+    <div id="updateDiv">
+        <h2>Update-Form</h2>
+        <input type="text" name="userId" id="userId" placeholder="Enter the ID">
+        <button class="nBtn" onclick=getUserData()>Get Data to Update</button>
+    </div>
+
+    <form action="" id="updateForm">
+        <input type="text" name="name" id="" placeholder="Enter the Name">
+        <input type="number" name="age" id="" placeholder="Enter the Age">
+        <input type="text" name="city" id="" placeholder="Enter the City">
+        <input class="fbtn" type="submit" name="" id="">
+    </form>
+
+    <button class="nBtn" onclick="updatePut()">UpdatePatch</button>
+
+
+    <div id="delDiv">
+        <h2>Delete-Data</h2>
+        <input type="text" name="" id="delId" placeholder="Enter the ID">
+        <button class="nBtn" id="delBtn">Delete</button>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>

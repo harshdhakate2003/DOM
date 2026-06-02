@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="mainDiv">
+        <div class="userDiv">
+            <h2>Search</h2>
+            <select name="" id="type">
+            <option value="">select value</option>
+            <option value="age">age</option>
+            <option value="name">name</option>
+            <option value="city">city</option>
+            </select>
+            <input type="text" name="" id="searchInp" placeholder="Enter to search">
+            <button class="nBtn" id="searchBtn">Search</button>
+        </div>
+
+        <div class="userDiv">
+            <h2>Sort</h2>
+            <select name="" id="sortByAge">
+                <option value="">choose</option>
+                <option value="age">Sort by assending age</option>
+                <option value="-age">Sort by decending age</option>
+            </select>
+        </div>
+
+        <div class="userDiv">
+            <h2>Filter</h2>
+            <input type="text" name="" id="filterInp" placeholder="Enter the age to filter">
+            <select name="" id="filter">
+                <option value="">choose</option>
+                <option value="gt">greater than</option>
+                <option value="gte">greater than eqauls to</option>
+                <option value="lt">less than</option>
+                <option value="lte">less than equal to</option>
+                <option value="eq">eqauls to</option>
+            </select>
+            <button class="nBtn" id="filterBtn">Show</button>
+        </div>
+
+    </div>
+
+
+    <div id="container">
+
+    </div>
+</body>
+<script src="./user.js"></script>
+</html>
